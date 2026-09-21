@@ -32,7 +32,6 @@ div{
     padding: 20px;
     border-radius: 3px;
     border-color:#ffffff;
-    border:solid;
 
 }
 .introduction{
@@ -47,7 +46,6 @@ div{
     margin:0px 50px 0px;
     border-bottom: 2px solid black;
     border-left: 5px solid black;
-    border:solid;
 }
 .blue{
     background-color: #0000FF;
@@ -56,7 +54,6 @@ div{
     margin:0px 50px 0px;
     border-bottom: 2px solid black;
     border-right: 5px solid black;
-    border:solid;
 }
 .blue p{
     color:#C4C4C4;
@@ -72,7 +69,6 @@ div{
     margin:0px 50px 0px 0px;
     border-bottom: 2px solid black;
     border-left: 5px solid black;
-    border:solid;
 }
 .yellow p{
     color:#707070;
@@ -85,11 +81,11 @@ div{
     margin:0px 50px 0px 0px;
     border-top: 2px solid black;
     border-right: 5px solid black;
-    border:solid;
 }
 
 footer{
-    color : gradient(#000000, goes to #0000ff at 25,  #0066ff at 70, and ends back at #000000);
+    background: #000000;
+    background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 255, 1) 25%, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 1) 100%);
     border: white solid 5px;
 };
 
