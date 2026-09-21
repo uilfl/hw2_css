@@ -1,9 +1,8 @@
 body{
     background-color: #080808;
-    color :#ffffff;
+    font-style :#ffffff;
     font-family: Arial, Verdana;
     margin: 20px 20px 0px 20px;
-
 }
 
 h1{
@@ -17,12 +16,16 @@ h2{
 }
 p{
     font-size: 24px;
-    padding:10px 0 10px 0;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 img{
     width: 250px;
-    position:center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
     border-radius: 10px;
     border-color:#ffffff;
     border:dashed;
@@ -43,7 +46,7 @@ div{
     background-color: #FF0000;
     color: #ffffff;
     text-align: right;
-    margin:0px 50px 0px;
+    margin-left: 50px;
     border-bottom: 2px solid black;
     border-left: 5px solid black;
 }
@@ -52,7 +55,7 @@ div{
     color: #ffffff;
     text-align: left;
     margin:0px 50px 0px;
-    border-bottom: 2px solid black;
+    border-top: 2px solid black;
     border-right: 5px solid black;
 }
 .blue p{
@@ -66,7 +69,7 @@ div{
     background-color: #FFFF00;
     color: #000000;
     text-align: right;
-    margin:0px 50px 0px 0px;
+    margin-left: 50px;
     border-bottom: 2px solid black;
     border-left: 5px solid black;
 }
